@@ -1,7 +1,7 @@
 # Script should be executed at workspace directory
 
 # ---- Install models ----
-cd stable-diffusion/models/stable-diffusion
+cd stable-diffusion-webui/models/Stable-diffusion
 
 # Flat 2D animerge
 wget https://civitai.com/api/download/models/266360
@@ -24,7 +24,7 @@ cd ..
 cd ..
 
 # ---- Install embeddings ----
-cd stable-diffusion/embeddings
+cd stable-diffusion-webui/embeddings
 
 # Very bad negative
 wget https://civitai.com/api/download/models/25820
@@ -38,7 +38,7 @@ mv 301684 Beyondv4-neg.pt
 cd ..
 
 # ---- Install Lora ----
-cd stable-diffusion/models/lora
+cd stable-diffusion-webui/models/Lora
 
 # Twitch emote
 wget https://civitai.com/api/download/models/22445
